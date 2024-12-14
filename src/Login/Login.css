@@ -1,0 +1,85 @@
+ 
+  /* Main container */
+  .login-container {
+    display: flex;
+    height: 100vh;
+  }
+  /* Right Section: Image */
+  .image-section {
+    flex: 1;
+    background-image: url('../assets/login.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Left Section: Form */
+  .form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    padding:0 70px;
+  }
+  
+  .login-form label {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px;
+  }
+  
+  .forgot-password {
+    color: #888;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    background-color: #035f0f;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #039116;
+  }
+  
+  
+  
